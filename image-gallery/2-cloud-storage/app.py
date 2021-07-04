@@ -3,7 +3,7 @@ import tempfile
 from flask import Flask, request, render_template, redirect, url_for, send_file
 from google.cloud import storage
 
-BUCKET_NAME = "<YOUR-BUCKET-NAME>"
+BUCKET_NAME = "playground-s-11-b8deeeea-images"
 
 storage_client = storage.Client()
 app = Flask(__name__)
